@@ -7,7 +7,7 @@ number = int(user_input)
 if number > 25:
     print("Error")
 else:
-    # วนลูปจากเลขที่รับมาไปจนถึง 25
+
     while number <= 25:
         print(f"Inside the loop, my variable is {number}")
         number += 1
