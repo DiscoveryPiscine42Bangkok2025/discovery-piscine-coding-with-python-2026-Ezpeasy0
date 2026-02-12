@@ -1,6 +1,7 @@
 from checkmate import checkmate
 
 def main():
+    print("Test 1")
     board1 = """\
 R...
 .K..
@@ -8,13 +9,14 @@ R...
 ....\
 """
     checkmate(board1)
+    print("-" * 20)
 
-# def main():
-#     board2 = """\
-# ..
-# .K\
-# """
-#     checkmate(board2)
-
+    print("Test 2")
+    board2 = """\
+..
+.K\
+"""
+    checkmate(board2)
+ 
 if __name__ == "__main__":
     main()
